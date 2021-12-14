@@ -40,3 +40,10 @@ Excercise_4/CMakeLists.txt
 *.cmake
 *.xml
 *.iml
+Excercise_4/cmake-build-debug/.cmake/api/v1/query/cache-v2
+Excercise_4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+Excercise_4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+Excercise_4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+Excercise_4/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake
+Excercise_4/cmake-build-debug/CMakeFiles/clion-environment.txt
+Excercise_4/cmake-build-debug/CMakeFiles/CMakeOutput.log
