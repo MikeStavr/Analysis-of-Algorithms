@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int N = 5;
-int heap_size = 0;
+int N = 7; // change the size of the queue
+int heap_size = 0; // do not change
 
 struct client {
     int id;
@@ -103,8 +103,9 @@ void insertSpecific(struct client *heap, int id, int priority) {
 }
 
 void printHeap(struct client *heap) {
+	int i;
     printf("\n\n Printing heap \n \n");
-    for (int i = 1; i <= heap_size; i++) {
+    for (i = 1; i <= heap_size; i++) {
         printf("Client with id %d and priority %d\n\n", heap[i].id, heap[i].priority);
     }
 }
@@ -169,6 +170,7 @@ int main() {
 
     printf("Final print of heap\n");
     printHeap(queue);
+    return 0;
 }
 
 /**
