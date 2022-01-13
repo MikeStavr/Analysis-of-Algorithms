@@ -24,8 +24,8 @@ struct AdjGraph* generateGraph(int vertices) {
   struct AdjGraph* graph = (struct AdjGraph*)malloc(sizeof(struct AdjGraph));
   graph->vertices = vertices;
   graph->array = malloc(vertices * sizeof(struct node*));
-
-  for (int i = 0; i < vertices; i++) {
+  int i;
+  for (i = 0; i < vertices; i++) {
     graph->array[i] = NULL;
   }
   return graph;
